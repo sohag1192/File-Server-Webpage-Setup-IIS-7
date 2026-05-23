@@ -401,17 +401,16 @@
                 </div>
             </div>
             <div class="col-md-6 text-md-end">
-                <!-- FIXED: Removed 'mobile-hide' class from links and structured layout to scale beautifully on mobile grid systems -->
-                <div class="d-flex gap-2 justify-content-center justify-content-md-end flex-wrap align-items-center">
-                    <button class="theme-toggle me-1 me-md-2" onclick="toggleTheme()" data-bs-toggle="tooltip" title="Toggle Theme"><i id="themeIcon" class="fa-solid fa-moon"></i></button>
-                    <a href="https://t.me/+3EcHBXjkDZQyZWQ1" target="_blank" class="btn btn-success btn-sm rounded-pill px-3 shadow-sm">
-                        <i class="fa-brands fa-telegram me-1 me-md-2"></i>Request
+                <div class="d-flex gap-2 justify-content-md-end flex-wrap align-items-center">
+                     <button class="theme-toggle me-2" onclick="toggleTheme()" data-bs-toggle="tooltip" title="Toggle Theme"><i id="themeIcon" class="fa-solid fa-moon"></i></button>
+                    <a href="https://t.me/+3EcHBXjkDZQyZWQ1" target="_blank" class="btn btn-success btn-sm rounded-pill px-3 shadow-sm mobile-hide">
+                        <i class="fa-brands fa-telegram me-2"></i>Request
                     </a>
-                    <a href="http://100.100.100.2/" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-3 shadow-sm">
-                        <i class="fa-solid fa-tv me-1 me-md-2"></i>SN TV
+                    <a href="http://100.100.100.2/" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-3 shadow-sm mobile-hide">
+                        <i class="fa-solid fa-tv me-2"></i>SN TV
                     </a>
-                    <a href="http://100.100.100.6:8096" target="_blank" class="btn btn-outline-danger btn-sm rounded-pill px-3 shadow-sm">
-                        <i class="fa-solid fa-play me-1 me-md-2"></i>SN Emby
+                    <a href="http://100.100.100.6:8096" target="_blank" class="btn btn-outline-danger btn-sm rounded-pill px-3 shadow-sm mobile-hide">
+                        <i class="fa-solid fa-play me-2"></i>SN Emby
                     </a>
                 </div>
             </div>
